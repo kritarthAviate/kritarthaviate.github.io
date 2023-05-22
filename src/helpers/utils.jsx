@@ -191,6 +191,9 @@ export const sanitizeConfig = (config) => {
       customTheme: customTheme,
     },
     footer: config?.footer,
+    openSource: config?.openSource || [],
+    web3Projects: config?.web3Projects || [],
+    about: config?.about || {},
   };
 };
 

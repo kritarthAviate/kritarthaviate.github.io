@@ -10,6 +10,8 @@ import Experience from './experience';
 import Certification from './certification';
 import Education from './education';
 import Project from './project';
+import OpenSource from './open-source';
+import About from './about';
 import Blog from './blog';
 import Footer from './footer';
 import {
@@ -26,6 +28,7 @@ import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
 import ExternalProject from './external-project';
+import Web3Projects from './web3Projects';
 
 const bgColor = 'bg-base-300';
 
@@ -201,6 +204,21 @@ const GitProfile = ({ config }) => {
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <About
+                        loading={loading}
+                        externalProjects={sanitizedConfig.about}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <Web3Projects
+                        loading={loading}
+                        externalProjects={sanitizedConfig.web3Projects}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <OpenSource
+                        loading={loading}
+                        externalProjects={sanitizedConfig.openSource}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <ExternalProject

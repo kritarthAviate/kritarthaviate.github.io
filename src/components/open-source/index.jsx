@@ -97,8 +97,8 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
           <div className="flex items-center flex-col">
             <div className="w-full">
               <div className="px-4">
-                <div className="text-center w-full">
-                  <h2 className="font-semibold text-lg tracking-wide text-center opacity-60 mb-2">
+                <div className="text-left w-full">
+                  <h2 className="font-semibold text-lg tracking-wide text-left opacity-60 mb-2">
                     {item.title}
                   </h2>
                   {item.imageUrl && (
@@ -140,13 +140,13 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         skeleton({ width: 'w-40', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          My Projects
+                          Open Source Contribution
                         </span>
                       )}
                     </h5>
                   </div>
                   <div className="col-span-2">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-1 gap-0">
                       {loading ? renderSkeleton() : renderExternalProjects()}
                     </div>
                   </div>

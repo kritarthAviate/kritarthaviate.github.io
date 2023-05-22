@@ -98,14 +98,14 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
           </div>
           <div className="flex justify-between text-sm text-base-content text-opacity-60 truncate">
             <div className="flex flex-grow">
-              <span className="mr-3 flex items-center">
+             {/* <span className="mr-3 flex items-center">
                 <AiOutlineStar className="mr-0.5" />
                 <span>{item.stargazers_count}</span>
               </span>
               <span className="flex items-center">
                 <AiOutlineFork className="mr-0.5" />
                 <span>{item.forks_count}</span>
-              </span>
+              </span>*/}
             </div>
             <div>
               <span className="flex items-center">
@@ -124,7 +124,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
 
   return (
     <Fragment>
-      <div className="col-span-1 lg:col-span-2">
+     {/* <div className="col-span-1 lg:col-span-2">
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-2">
             <div className="card compact bg-base-100 shadow bg-opacity-40">
@@ -135,7 +135,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       skeleton({ width: 'w-40', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        GitHub Projects
+                        Projects
                       </span>
                     )}
                   </h5>
@@ -161,7 +161,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </Fragment>
   );
 };
