@@ -53,8 +53,8 @@ const ExternalProject = ({ externalProjects }) => {
                     opportunity to work as a web developer intern at Parcel
                     Tech, a Web3 startup based in the US. Starting as an intern,
                     I poured my heart and soul into my work, and my dedication
-                    paid off big time! I got promoted to the position of senior
-                    full-stack engineer in less than two years. 🚀👨‍💻
+                    paid off big time! I got promoted to the position of Senior
+                    Full Stack Developer in less than two years. 🚀👨‍💻
                   </p>
                   <br />
 

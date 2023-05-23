@@ -24,7 +24,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1eQWTqR14DIkS9WdPY_af05_W-kjSGT8b/view?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1SIRnTIbxHwBYfxqp4ZSSGt8RoBT-45Bg/view?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'ReactJS',
@@ -42,7 +42,6 @@ const config = {
     'Web3.js',
     'Moralis',
     'Hardhat',
-    'MySQL',
     'PostgreSQL',
     'MongoDB',
     'Firebase',
