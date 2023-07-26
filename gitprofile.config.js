@@ -72,6 +72,14 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'FundWise - Decentralised Crowdfunding Platform',
+      description:
+        'FundWise is a decentralised crowdfunding platform that allows users to create and contribute to campaigns. It uses the Ethereum blockchain to store campaign data and contributions. The platform is built using Solidity and Hardhat.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://github.com/kritarthAviate/fundwise-smart-contract',
+      stack: ['Solidity', 'Hardhat'],
+    },
+    {
       title: 'AAVE V2 poc application',
       description:
         'Built a smart contract to use AAVE V2 protocol to deposit and withdraw ETH using WETH Gateway.',
@@ -103,21 +111,21 @@ const config = {
       link: 'https://github.com/kritarthAviate/snake-game',
       stack: ['React', 'JavaScript'],
     },
-    {
-      title: 'Task Planner',
-      description:
-        'This task planner React app comes with Google OAuth2 integration and email/password authentication for login. It lets users create, delete, and prioritize tasks with easy drag-and-drop functionality.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://github.com/kritarthAviate/task_planner',
-      stack: [
-        'React',
-        'JavaScript',
-        'ExpressJS',
-        'MongoDB',
-        'react-cookie',
-        'OAuth2',
-      ],
-    },
+    // {
+    //   title: 'Task Planner',
+    //   description:
+    //     'This task planner React app comes with Google OAuth2 integration and email/password authentication for login. It lets users create, delete, and prioritize tasks with easy drag-and-drop functionality.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://github.com/kritarthAviate/task_planner',
+    //   stack: [
+    //     'React',
+    //     'JavaScript',
+    //     'ExpressJS',
+    //     'MongoDB',
+    //     'react-cookie',
+    //     'OAuth2',
+    //   ],
+    // },
     // {
     //   title: 'Tic-tac-toe',
     //   description:
